@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.jump-btn {
+  position: absolute;
+  top: 50;
+  right: 10;
+  display: block;
+  margin: 0px auto;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  background: #ee8a65;
+}
+
+.reset {
+  top: 100;
+}
+
+.kiev {
+  top: 150;
+}
+
+.dnipro {
+  top: 200;
+}
+
+.lviv {
+  top: 250;
+}
+
+.lang-btn {
+  position: absolute;
+  top: 10;
+  right: 100;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 1px;
+  border-radius: 30px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  background: #ee8a65;
+}
+
+.lang-btn:focus {
+  outline: none !important;
+}
+
+.ua {
+  right: 135;
+}
+
+.en {
+  right: 100;
+}
+
+.ru {
+  right: 65;
+}
